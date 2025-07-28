@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'LTColoredPencil';
+    src: url('./assets/fonts/LTColoredPencil.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-LTColoredPencil{
+    font-family: 'LTColoredPencil';
+    color: rgb(162, 0, 255);
+}
+
+body{
+    /* background-color: rgb(240, 215, 255); */
+    background-color: whitesmoke;
+}

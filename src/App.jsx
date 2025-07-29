@@ -11,7 +11,7 @@ function App() {
         <HeroSection/>
         <MyLetters/>
         {/* Our Memories Together File */}
-        <OurMemoriesTogether/>
+        {/* <OurMemoriesTogether/> */}
         <LoveLetterSection/>
         <span className="font-bold">From </span>
         <div className="flex justify-center items-center flex-col mb-24">

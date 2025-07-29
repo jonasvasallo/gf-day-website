@@ -4,10 +4,10 @@ import WordsCard from '../WordsCard'
 function MyLetters() {
   return (
     <div className="flex flex-col justify-center items-center">
-        <div className="inline-block text-4xl font-bold text-purple-400">
+        <div className="inline-block text-3xl font-bold text-purple-400 lg:text-4xl">
             To My Favorite Person
         </div>
-        <span className='text-xl font-medium text-center text-gray-600 mt-2'>Words I wish I say more often.</span>
+        <span className='text-md font-medium text-center text-gray-600 mt-2 lg:text-xl'>Words I wish I say more often.</span>
         <div className="flex gap-2 mt-4 flex-wrap justify-center items-center">
             <WordsCard content="You’re my safe place and my happiest hello."/>
             <WordsCard content="You are so patient. I don't know how you do it sometimes."/>

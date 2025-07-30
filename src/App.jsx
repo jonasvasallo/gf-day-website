@@ -1,3 +1,4 @@
+import FlowerSection from "./components/sections/FlowerSection"
 import HeroSection from "./components/sections/HeroSection"
 import LoveLetterSection from "./components/sections/LoveLetterSection"
 import MyLetters from "./components/sections/MyLetters"
@@ -10,8 +11,8 @@ function App() {
       <div className="pt-32 flex flex-col justify-center items-center w-[1024px] gap-16">
         <HeroSection/>
         <MyLetters/>
-        {/* Our Memories Together File */}
-        {/* <OurMemoriesTogether/> */}
+        <OurMemoriesTogether/>
+        <FlowerSection/>
         <LoveLetterSection/>
         <span className="font-bold">From </span>
         <div className="flex justify-center items-center flex-col mb-24">

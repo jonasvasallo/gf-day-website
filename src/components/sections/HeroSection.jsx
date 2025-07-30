@@ -9,7 +9,7 @@ function HeroSection() {
             <span className='text-md font-medium text-center text-gray-600 lg:text-xl'>To the one who makes my world brighter every day.</span>
         </div>
         <div className='w-[300px] h-[300px] mt-8'>
-            <img src="/pictures/IMG_8426.PNG" alt="" className="w-full h-full object-cover rounded-md"/>
+            <img src="/pictures/IMG_8426.PNG" alt="" className="w-full h-full object-cover rounded-md shadow-md"/>
         </div>
         <SpotifyCard/>
     </div>
